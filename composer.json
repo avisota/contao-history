@@ -14,17 +14,17 @@
 		}
 	],
 	"support":{
-		"email":"info@bit3.de",
-		"issues":"https://github.com/avisota/contao-history/issues",
+		"email": "support@avisota.de",
+		"issues": "https://avisota.atlassian.net/browse/CSTAT/component/10117",
 		"forum":"https://community.contao.org/de/forumdisplay.php?121-Avisota",
 		"wiki":"http://de.contaowiki.org/Kategorie:Avisota",
-		"irc":"irc://irc.freenode.org/contao.dev",
-		"source":"https://github.com/avisota/contao-history"
+		"irc": "irc://irc.freenode.org/avisota",
+		"source": "https://github.com/avisota/contao-core"
 	},
 	"require":{
 		"php":">=5.3",
 		"contao-community-alliance/composer-installer": "~1.6",
-		"avisota/contao": "self.version"
+		"avisota/contao-core": "~2.0"
 	},
 	"require-dev":{
 		"phpunit/phpunit":"3.7.*",
@@ -33,6 +33,11 @@
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
+	"conflict": {
+		"contao-legacy/avisota": "*",
+		"contao-legacy/avisota2": "*",
+		"avisota/contao": "*"
+	},
 	"autoload":{
 		"psr-0":{
 			"Avisota\\Contao": "src/"
