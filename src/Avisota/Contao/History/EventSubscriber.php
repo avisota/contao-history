@@ -16,7 +16,7 @@ namespace Avisota\Contao\Entity;
 
 use Avisota\Contao\Entity\MessageHistory;
 use Avisota\Contao\Entity\MessageHistoryDetails;
-use Avisota\Contao\Event\PostSendImmediateEvent;
+use Avisota\Contao\Core\Event\PostSendImmediateEvent;
 use Contao\Doctrine\ORM\Entity;
 use Contao\Doctrine\ORM\EntityHelper;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
