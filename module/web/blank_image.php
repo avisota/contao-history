@@ -4,7 +4,7 @@
  * Contao Open Source CMS
  *
  * @copyright  MEN AT WORK 2013 
- * @package    avisota
+ * @package    avisota/contao-history
  * @license    GNU/LGPL 
  * @filesource
  */
