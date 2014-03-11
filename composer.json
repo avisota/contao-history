@@ -1,6 +1,6 @@
 {
 	"name":"avisota/contao-history",
-	"description":"Simple message history and statistic for Avisota",
+	"description":"Simple message history and statistic for Avisota.",
 	"keywords":["avisota", "email", "mail", "newsletter", "marketing"],
 	"type":"contao-module",
 	"homepage":"http://avisota.org",
